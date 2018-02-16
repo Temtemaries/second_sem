@@ -6,7 +6,7 @@ def IlonMaks():
 </head>
 <body>
 <body bgcolor="#e0e0e0">
-<H1 align="center">Тачка Илона макса</H1>
+<H1 align="center">Тачка Илона в космосе</H1>
 <HR>
 <img  src="007.gpj align="right" width="50%" height="50%" hspace="0" vspace="30" >
 <h3>
