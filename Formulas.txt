@@ -1,0 +1,51 @@
+\documentclass[12pt]{article} 
+\usepackage{ucs} 
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel} 
+\usepackage[left=2cm,right=2cm,top=0,5cm,bottom=0,5cm]{geometry}
+\date{}
+\title{\bf 17 уравнений, которые изменили мир Иэна Стюарта} 
+\begin{document} 
+\maketitle
+\begin{enumerate}
+\item \bf{Теорема Пифагора} \hfill \begin{minipage}[t]{100mm} $ a^{2} + b^{2} = c^{2} $ \hfill \bf{Пифагор 530 BC} \end{minipage}
+\item \bf{Логарифмы} \hfill \begin{minipage}[t]{100mm}$ \log xy = \log x + \log y $ \hfill \bf{Напиер, 1610} \end{minipage} 
+\item \bf{Дифференцильное \\исчисление\\} \hfill \begin{minipage}[t]{100mm} $ \frac{d f}{d t} = \lim \limits_{h\to 0} \frac{f(t+ h)-f(t)}{h} $ \hfill \bf{Ньютон, 1668} \end{minipage}
+\item \bf{Закон гравитации} \hfill \begin{minipage}[t]{100mm}$ F = G\frac{m_{1} m_{2}}{r^2}$ \hfill \bf{Ньютон, 1687} \end{minipage}
+\item \noindent
+\begin{minipage}[t]{45mm} \bf{Квадратный корень из минус единицы} \end{minipage}
+\hfill
+\begin{minipage}[t]{100mm} $ i^{2} = - 1 $ \hfill \bf{Эйлер, 1750} \end{minipage}
+\item \noindent
+\begin{minipage}[t]{45mm} \bf{Формула Эйлера для многогранников} \end{minipage}
+\hfill 
+\begin{minipage}[t]{100mm} $ \mathrm{V} - \mathrm{E} + \mathrm{F} = 2 $ \hfill \bf{Эйлер, 1751} \end{minipage}
+\item \bf{Нормальное распределение} \hfill \begin{minipage}[t]{100mm}$ \Phi \left(x\right) = \frac{1}{\sqrt{2\pi \rho}} {C}^{\frac{(x - \rho)^{2}}{2\rho^{2}}} $ \hfill \bf{Гаусс, 1810} \end{minipage}
+\item \bf{Волновое уравнение} \hfill \begin{minipage}[t]{100mm}$ \frac{\partial^{2}u}{\partial t^{2}} = c^{2}\frac{\partial^{2}u}{\partial x^{2}} $
+\hfill \bf{Д'Аламбер, 1746} \end{minipage}
+\item \bf{Преобразование Фурье} \hfill \begin{minipage}[t]{100mm}$ f(\omega) = {\int_{-\infty}^{\infty}} f\left(x \right) {e}^{-2\pi i \omega} dx $ \hfill \bf{Фурье, 1822} \end{minipage}
+\item 
+\begin{minipage}[t]{45mm} \bf{Уравнение \\Навье-Стокса\\}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{100mm}$ \rho(\frac{\partial \mathrm{v}}{\partial \mathrm{t}}+\mathrm{v} \cdot \nabla \mathrm{v}) = - \nabla \mathrm{p} + \nabla \cdot \mathrm{T} + \mathrm{f} $ \hfill \bf{Навье,Стокс, 1845}
+\end{minipage}
+\item \bf{Уравнения Максвелла} \hfill \begin{minipage}[t]{100mm} \begin{minipage}[t]{30mm} $\nabla\cdot{\bf E} = \frac{\rho}{\varepsilon_0}$ \\ $\nabla\times{\bf E} = -\frac{1}{c} \frac{\partial{\bf H}}{\partial t}$ \\ \end{minipage}
+\begin{minipage}[t]{30mm} $\nabla\cdot{\bf H} = 0$ \\$\nabla\times{\bf H} = \frac{1}{c} \frac {E}{\partial t}$ \\
+\end{minipage} \hfill \bf{Максвелл, 1865}\end{minipage}
+\item \begin{minipage}[t]{45mm} \bf{Второй закон \\термодинамики\\} \end{minipage}
+\hfill
+\begin{minipage}[t]{100mm} $\mathrm{d}S\ge 0 $ \hfill \bf{Больцман, 1874} \end{minipage}
+\item \bf{Относительность} \hfill \begin{minipage}[t]{100mm}$ E=mc^2 $ \hfill \bf{Эйнштейн, 1905}
+\end{minipage}
+\item\begin{minipage}[t]{45mm} \bf{Уравнение \\Шредингера\\} \end{minipage} \hfill \begin{minipage}[t]{100mm} $ ih \frac{\partial}{\partial t} \Psi = H \Psi $
+\hfill \bf{Шредингер, 1927} \end{minipage}
+\item \bf{Теория информации} \hfill
+\begin{minipage}[t]{100mm}$ x_{t+1}=kx_{t}(1-x_{t}) $ \hfill Шеннон, 1949
+\end{minipage}
+\item \bf{Теория хаоса} \hfill \begin{minipage}[t]{100mm} $x_t+1 = kx_t(1-x_t)$ \hfill \bf{Р.Мэй, 1975} \end{minipage}
+\item \begin{minipage}[t]{45mm} \bf{Уравнение \\Блэка — Шоулза\\} \end{minipage}
+\hfill 
+\begin{minipage}[t]{100mm} $ \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} + \frac{\partial V}{\partial t} - rV = 0$ \hfill \bf{Блэк,Шоулз, 1990} \end{minipage}
+\end{enumerate}
+\end{document}
