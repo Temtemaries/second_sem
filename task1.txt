@@ -1,0 +1,7 @@
+implicitly declaring library function 'printf' with type 'int (const char *, ...)'
+        ^это ошибка^
+He
+00000000000123214941
+           123214941
+2.12
+Program ended with exit code: 0 
